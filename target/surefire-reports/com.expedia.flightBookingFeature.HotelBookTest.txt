@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.expedia.flightBookingFeature.HotelBookTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 33.331 s <<< FAILURE! - in com.expedia.flightBookingFeature.HotelBookTest
+tobookHotelTest(com.expedia.flightBookingFeature.HotelBookTest)  Time elapsed: 26.959 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of all elements located by By.xpath: (//span[@class='uitk-button-container'])[7] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7OAS84M1', ip: '192.168.29.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 20508, moz:profile: C:\Users\asaks\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4da6b1da-ea50-4598-a429-606aaa64b3cc
+	at com.expedia.flightBookingFeature.HotelBookTest.tobookHotelTest(HotelBookTest.java:25)
+
