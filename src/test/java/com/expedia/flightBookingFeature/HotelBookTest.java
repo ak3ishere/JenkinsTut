@@ -16,8 +16,8 @@ public class HotelBookTest
   public void tobookHotelTest() 
   {
 	  hobj.setGointo("New Delhi");
-	  hobj.setCheckinDate("08/02/2020");
-	  hobj.setCheckOutDate("09/02/2020");
+	  hobj.setCheckinDate("09/02/2020");
+	  hobj.setCheckOutDate("10/02/2020");
 	  hobj.setNoofTravAdults(2);
 	  hobj.setNoofTravchildren(1);
 	  
